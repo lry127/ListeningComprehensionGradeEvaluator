@@ -52,7 +52,7 @@ You can listening to the materials over and over again until you solve all the p
 
 ## Build Manually
 
-I only build this for x64 Windows operating system, but it only uses standard c++ library and can actually run any common platforms.
+I only build it for x64 Windows operating system, but it only uses standard c++ library and can actually run on any platform that supports cxx 17.
 
 Take advantage of cmake to build it:
 
@@ -68,7 +68,7 @@ Take advantage of cmake to build it:
    unzip cmake-source.zip && cd source
    ```
 
-3. make build dir
+3. make build directory
    
    ```
    mkdir build && cd build 
