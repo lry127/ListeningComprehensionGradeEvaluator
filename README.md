@@ -46,6 +46,8 @@ You got 163.3 (65.7%) scores.
 Analysis is OFF.
 ```
 
+![screenshot](images/screenshot.png)
+
 ## Why this?
 
 You can listening to the materials over and over again until you solve all the problems without looking at the answers every time you're finished. (This reduces the change you unintentionally memorized the correct answers while comparing them with yours.)
@@ -79,5 +81,3 @@ Take advantage of cmake to build it:
    ```
    cmake .. && cmake --build . --config Release
    ```
-   
-   
