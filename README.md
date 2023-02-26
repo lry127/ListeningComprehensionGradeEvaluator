@@ -49,3 +49,35 @@ Analysis is OFF.
 ## Why this?
 
 You can listening to the materials over and over again until you solve all the problems without looking at the answers every time you're finished. (This reduces the change you unintentionally memorized the correct answers while comparing them with yours.)
+
+## Build Manually
+
+I only build this for x64 Windows operating system, but it only uses standard c++ library and can actually run any common platforms.
+
+Take advantage of cmake to build it:
+
+1. get cmake source
+   
+   ```
+   wget https://github.com/lry127/ListeningComprehensionGradeEvaluator/releases/download/v1.0.0/cmake-source.zip
+   ```
+
+2. unzip source
+   
+   ```
+   unzip cmake-source.zip && cd source
+   ```
+
+3. make build dir
+   
+   ```
+   mkdir build && cd build 
+   ```
+
+4. build it
+   
+   ```
+   cmake .. && cmake --build . --config Release
+   ```
+   
+   
